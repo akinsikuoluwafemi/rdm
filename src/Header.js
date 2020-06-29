@@ -18,7 +18,6 @@ const Header = () => {
     console.log(darkmode);
     return (
         <nav className={darkmode ? `navbar navbar-expand-md navbar-dark bg-dark fixed-top` : `navbar navbar-expand-md navbar-light bg-light fixed-top`} >
-                <a href="#" className="navbar-brand">Youtube</a>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -27,7 +26,6 @@ const Header = () => {
                     <div className="navbar-nav">
                         <NavLink className="nav-item nav-link active" to="/">Home</NavLink>
                         <NavLink className="nav-item nav-link active" to="/profile">Profile</NavLink>
-                        <a href="#" className="nav-item nav-link">Messages</a>
                     </div>
                     <div className="navbar-nav ml-auto">
                     {/* <button onClick={() =>  >{darkmode ? "dark-mode" : "light-mode"}</button> */}

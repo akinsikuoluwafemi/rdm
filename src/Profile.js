@@ -3,7 +3,9 @@ import { ModeContext } from './ModeContext/ModeContext';
 
 
 const Profile = () => {
-    let { darkmode, setDarkmode } = useContext(ModeContext);
+    // let { darkmode, setDarkmode } = useContext(ModeContext);
+    let { darkmode } = useContext(ModeContext);
+
 
     return (
         <div className={darkmode ? 'dark-mode' : 'light-mode'}>

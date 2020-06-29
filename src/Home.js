@@ -4,7 +4,9 @@ import SearchBar from './SearchBar';
 import youtube from './apis/youtube';
 
 const Home = () => {
-    let { darkmode, setDarkmode } = useContext(ModeContext);
+    // let { darkmode, setDarkmode } = useContext(ModeContext);
+    let { darkmode } = useContext(ModeContext);
+
 
     const onTermSubmit = (term) => {
          youtube.get('/search', {
