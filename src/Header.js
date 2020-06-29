@@ -1,5 +1,5 @@
-import React, { useContext, useEffect } from 'react';
-import NavLink from 'react-router-dom/NavLink';
+import React, { useContext } from 'react';
+import { NavLink } from 'react-router-dom';
 import { ModeContext } from './ModeContext/ModeContext';
 
 
@@ -27,10 +27,9 @@ const Header = () => {
                     <div className="navbar-nav">
                         <NavLink className="nav-item nav-link active" to="/">Home</NavLink>
                         <NavLink className="nav-item nav-link active" to="/profile">Profile</NavLink>
-                        <a href="#" class="nav-item nav-link">Messages</a>
-                        <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+                        <a href="#" className="nav-item nav-link">Messages</a>
                     </div>
-                    <div class="navbar-nav ml-auto">
+                    <div className="navbar-nav ml-auto">
                     {/* <button onClick={() =>  >{darkmode ? "dark-mode" : "light-mode"}</button> */}
                     <span className="toggle">
                         <input

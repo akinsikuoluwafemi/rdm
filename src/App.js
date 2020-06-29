@@ -22,7 +22,6 @@ function App() {
             <a href="#" className="nav-item nav-link active">Home</a>
             <a href="#" className="nav-item nav-link">Profile</a>
             <a href="#" className="nav-item nav-link">Messages</a>
-            <a href="#" className="nav-item nav-link disabled" tabindex="-1">Reports</a>
           </div>
           <div className="navbar-nav ml-auto">
             <a href="#" className="nav-item toggle-container">
